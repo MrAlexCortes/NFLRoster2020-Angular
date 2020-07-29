@@ -1,0 +1,11 @@
+<div class="header">
+   <h1>{{teamId}}</h1>
+</div>
+<div class="players-container">
+   <div *ngFor="let player of players" class="player-container">
+      <img src="{{player.PhotoUrl}}">
+      <h1>{{player.Number}}</h1>
+      <h2>{{player.Name}}</h2>
+      <h2 class="last-item">{{player.Position}}</h2>
+   </div>
+</div>

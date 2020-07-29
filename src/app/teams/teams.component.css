@@ -1,0 +1,32 @@
+.teams-container {
+   display: inline-flex;
+   flex-wrap: wrap;
+}
+
+.team-container {
+   margin: 1em;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.team-logo-container {
+   width: 175px;
+   height: 175px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   border-radius: 5pt;
+}
+
+.team-logo-container img {
+   width: 150px;
+   height: 145px;
+}
+
+.team-container img {
+   padding-top: 1em;
+   width: 135px;
+   align-self: center;
+}

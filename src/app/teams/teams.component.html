@@ -1,0 +1,8 @@
+<div class="teams-container">
+   <div *ngFor="let team of teams" class="team-container" (click)="redirectPlayers(team.Key)">   
+      <div class="team-logo-container">
+         <img src="{{team.WikipediaLogoUrl}}">
+      </div>
+      <img src="{{team.WikipediaWordMarkUrl}}">
+   </div>
+</div>

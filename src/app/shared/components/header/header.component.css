@@ -1,0 +1,18 @@
+.header {
+   display: inline-flex;
+   height: 75px;
+   width: 100%;
+   background-color: #00376E;
+}
+
+.header img {
+   height: 100%;
+   padding-left: 1em;
+}
+
+.header h1 {
+   color: white;
+   font-size: 2em;
+   align-self: center;
+   padding-left: .5em;
+}
