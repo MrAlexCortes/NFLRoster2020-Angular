@@ -1,0 +1,48 @@
+<div class="main-container">
+   <div class="card">
+      <h2 class="card-title">Player Card</h2>
+      <div class="info-container">
+         <img src="{{player.PhotoUrl}}">
+         <div class="number-position-container">
+            <h3 class="">{{player.Number}}</h3>
+            <h3>{{player.Position}}</h3>
+         </div>
+      </div>
+      <h3>{{player.Name}}</h3>
+      <h3>Age {{player.Age}}</h3>
+   </div>
+   <div class="card the-other-card">
+      <h2 class="card-title">Player Info</h2>
+
+      <div class="player-data">
+         <div class="icon">
+            <i class="fas fa-ruler-vertical"></i>
+         </div>
+         Height: <h4> {{player.Height}}</h4>
+      </div>
+      <div class="player-data">
+         <div class="icon">
+            <i class="fas fa-weight-hanging"></i>
+         </div>
+         Weight: <h4> {{player.Weight}}</h4>
+      </div>
+      <div class="player-data">
+         <div class="icon">
+            <i class="fas fa-birthday-cake"></i>
+         </div>
+         Date Of Birth: <h4> {{player.Height}}</h4>
+      </div>
+      <div class="player-data">
+         <div class="icon">
+            <i class="fas fa-graduation-cap"></i>
+         </div>
+         College: <h4> {{player.College}}</h4>
+      </div>
+      <div class="player-data">
+         <div class="icon">
+            <i class="far fa-calendar-check"></i>
+         </div>
+         Experience: <h4> {{player.Experience}} season(s)</h4>
+      </div>
+   </div>
+</div>

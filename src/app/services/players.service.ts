@@ -15,4 +15,10 @@ export class PlayersService {
       'Ocp-Apim-Subscription-Key':environment.apiKey
     }}).toPromise();
   }
+
+  getPlayerDetail(playerId) {
+    return this.httpClient.get(this.apiUrl + 'scores/json/Player/' + playerId, {headers: {
+      'Ocp-Apim-Subscription-Key':environment.apiKey
+    }}).toPromise();
+  }
 }

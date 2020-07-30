@@ -7,13 +7,15 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { TeamsComponent } from './teams/teams.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PlayersComponent } from './players/players.component';
+import { PlayerDetailComponent } from './player-detail/player-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TeamsComponent,
-    PlayersComponent
+    PlayersComponent,
+    PlayerDetailComponent
   ],
   imports: [
     BrowserModule,

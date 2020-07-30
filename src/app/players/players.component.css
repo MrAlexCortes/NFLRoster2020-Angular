@@ -4,7 +4,7 @@
 }
 
 .players-container {
-   justify-self: center;
+   justify-content: center;
    display: flex;
    flex-wrap: wrap;
 }
@@ -31,6 +31,7 @@ h2 {
 }
 
 .last-item {
+   margin-top: auto;
+   padding-top: 1.5em;
    color: #555;
-   margin-top: 1.5em;
 }

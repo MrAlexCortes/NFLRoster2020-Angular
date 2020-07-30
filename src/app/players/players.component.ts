@@ -31,4 +31,9 @@ export class PlayersComponent implements OnInit {
       console.log(response); this.players = response})
       .catch(error => { console.log(error)});
   }
+
+  redirectPlayerDetail(id) {
+    console.log('redirecting to player details', id);
+    this.router.navigate([id], {relativeTo: this.activatedRoute });
+  }
 }

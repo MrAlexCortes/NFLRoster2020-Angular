@@ -2,7 +2,7 @@
    <h1>{{teamId}}</h1>
 </div>
 <div class="players-container">
-   <div *ngFor="let player of players" class="player-container">
+   <div *ngFor="let player of players" class="player-container" (click)="redirectPlayerDetail(player.PlayerID)">
       <img src="{{player.PhotoUrl}}">
       <h1>{{player.Number}}</h1>
       <h2>{{player.Name}}</h2>
